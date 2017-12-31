@@ -7,4 +7,4 @@ function updateObjectWithKeyAndValue(anObject,key,value){
 
 var testObj={samp:0,samp2:1};
 console.log(testObj);
-console.log(updateObjectWithKeyAndValue(testObj,'samp3',80));
+console.log(updateObjectWithKeyAndValue(testObj,'samp3',2));
