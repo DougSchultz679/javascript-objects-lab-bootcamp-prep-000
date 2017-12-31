@@ -1,7 +1,7 @@
 const recipes = {};
 
-function updateObjectWithKeyAndValue(obj,key,value){
-  let result=Object.assign(obj,key,value);console.log(result);return result;}
+function updateObjectWithKeyAndValue(anObject,key,value){
+  let result=Object.assign(anObject,key,value);console.log(result);return result;}
 
 let testObj={samp:0,samp2:1};
 console.log(testObj);
