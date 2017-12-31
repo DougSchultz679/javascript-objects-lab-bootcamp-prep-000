@@ -7,4 +7,4 @@ function updateObjectWithKeyAndValue(anObject,starfish,value){
 
 var testObj={samp:0,samp2:1};
 console.log(testObj);
-console.log(updateObjectWithKeyAndValue(testObj,'star',2));
+console.log(updateObjectWithKeyAndValue(testObj,'star',80));
