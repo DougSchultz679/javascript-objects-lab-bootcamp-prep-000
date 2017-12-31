@@ -1,7 +1,7 @@
 const recipes = {};
 
 function updateObjectWithKeyAndValue(anObject,starfish,value){
-  var result=Object.assign({},anObject,{starfish:value});
+  var result=Object.assign({},anObject,{[starfish]:value});
   console.log(result);
   return result;}
 
