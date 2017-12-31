@@ -1,10 +1,10 @@
 const recipes = {};
 
-function updateObjectWithKeyAndValue(anObject,starfish,value){
-  var result=Object.assign({},anObject,{[starfish]:value});
+function updateObjectWithKeyAndValue(anObject,key,value){
+  var result=Object.assign({},anObject,{[key]:value});
   console.log(result);
   return result;}
 
 var testObj={samp:0,samp2:1};
 console.log(testObj);
-console.log(updateObjectWithKeyAndValue(testObj,'stardust',80));
+console.log(updateObjectWithKeyAndValue(testObj,'samp3',80));
